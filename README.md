@@ -1,3 +1,3 @@
 # Kokoa Clone 2022 update
 
-CSS got so much better!
+HEML & CSS got so much better!
