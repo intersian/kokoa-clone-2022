@@ -11,3 +11,18 @@
     left: 20px;
     bottom: 15px;
 }
+
+.redbadge {
+    position:relative;
+}
+
+.small-badge {
+    position: absolute;
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 22px;
+    right: -7px;
+}
