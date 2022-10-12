@@ -56,3 +56,20 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__subtitle-badge {
+    display: flex;
+
+}
+
+.user-component__badge {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
