@@ -104,3 +104,26 @@
     font-size: 13px;
     margin-left: 3px;
 }
+
+.open-post__lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);   
+    padding-top: 10px; 
+    margin-top: 10px;
+}
+
+.open-post__hashtags__lowercase {
+    text-transform: lowercase;
+    opacity: 0.6;
+}
+
+.open-post__column h6 {
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.open-post__column span {
+    font-weight: 600;
+}
