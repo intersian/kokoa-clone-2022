@@ -65,7 +65,7 @@ body {
 }
 
 .bar:nth-child(2) {
-    animation-delay: 0.1s;
+    animation-delay: 100ms;
 }
 
 .bar:nth-child(3) {
