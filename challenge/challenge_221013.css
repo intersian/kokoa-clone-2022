@@ -1,0 +1,232 @@
+body {
+    width: 340px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 340px;
+    height: 100px;
+    background-color: #FFCE33;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+.header__button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 27px;
+}
+
+.header__menu-bar {
+    margin-left: 10px;
+}
+
+.header__menu-bar__long {
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    border-radius: 1px;
+}
+
+.header__menu-bar__short {
+    background-color: black;
+    width: 10px;
+    height: 3px;
+    margin: 3px 0;
+    border-radius: 1px;
+}
+
+.header__title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.header__bag {
+    margin-right: 10px;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 320px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 15px -15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 75px;
+}
+
+.header__search i{
+    margin-left: auto;
+    margin-right: 20px;
+    opacity: 0.3;
+}
+
+.header__search__text {
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.2;
+    margin-left: 30px;
+}
+
+main {
+    margin-left: 10px;
+}
+
+.article {
+    margin-top: 10px;
+}
+
+.article__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.article__contents {
+    margin-top: 15px;
+    display: flex;
+}
+
+.article__contents__cover img {
+    width: 107px;
+    height: 162px;
+    border-radius: 5px;
+}
+
+.article__contents__description {
+    margin-left: 15px;
+}
+
+.article__contents__description__title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.article__contents__description__author {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.3;
+}
+
+.article__contents__description__score {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+i.fa-star {
+    color: #FFCE33;
+}
+
+i.gray {
+    color: #EDEDED;
+}
+
+.article__contents__description__genre {
+    display: flex;
+    margin-top: 15px;
+}
+
+.article__contents__description__genre__journey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.article__contents__description__genre__biography {
+    display: flex;
+    margin-left: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.article__contents__description__buy {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.article__contents__description__buy__bookmark {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #FFCE33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article__contents__description__buy__booknow {
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.lists {
+    margin-top: 15px;
+}
+
+.list__contents {
+    display: flex;
+    margin-top: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.list__contents__book {
+    margin-right: 20px;
+}
+
+.list__contents__book__cover img {
+    width: 72px;
+    height: 110px;
+    border-radius: 5px;
+}
+
+.list__contents__book__score {
+    margin-top: 10px;
+    width: 72px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.author-pic img {
+    width: 107px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.author-des {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.author-content {
+    margin-left: 20px;
+}

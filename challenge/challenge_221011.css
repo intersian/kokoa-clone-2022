@@ -19,7 +19,7 @@ body {
     }
 }
 
-@keyframes jumping {
+@keyframes jumping_1 {
     from {
         transform: scaleY(1.0);
     }
@@ -31,6 +31,21 @@ body {
     }
     100% {
         transform: scaleY(1.0);
+    }
+}
+
+@keyframes jumping {
+    from {
+        transform-origin: 2x;
+    }
+    25% {
+        transform-origin: 90px;
+    }
+    50% {
+        transform-origin: 45px;
+    }
+    100% {
+        transform-origin: 45px;
     }
 }
 
@@ -54,6 +69,7 @@ body {
 .jumping-bars {
     display: flex;
     margin-top: 100px;
+    align-items: flex-end;
 }
 
 .bar {
