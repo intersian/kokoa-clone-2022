@@ -127,3 +127,23 @@
 .open-post__column span {
     font-weight: 600;
 }
+
+@keyframes heartBeat {
+    0%{
+        color: white;
+        transform: scale(1);
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.2);
+    }
+    100%{
+        color: white;
+        transform: scale(1);
+    }
+}
+
+.open-post__photo:hover i {
+    will-change: transform;
+    animation: heartBeat 0.7s ease-in-out infinite;
+}

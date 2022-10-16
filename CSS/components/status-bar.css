@@ -1,11 +1,16 @@
 .status-bar {
+    background-color: rgba(255, 255, 255, 0.5);
     position: fixed;
     top: 0;
-    width: 100%;
     box-sizing: border-box;
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5px 3px;
+    padding: 5px 0px;
+}
+
+.status-bar__chat {
+    background-color: rgba(171, 193, 209, 0.5);
 }
 .status-bar__column {
     width: 33%;
